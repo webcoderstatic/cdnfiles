@@ -1,0 +1,223 @@
+.main-header {
+  background-color: #fff;
+  padding-top: 1.250em;
+}
+
+.main-header__logo img {
+  max-width: 49%;
+}
+
+.main-header.scroll {
+  box-shadow: 0px 2px 2px 0px rgba(38, 43, 95, .05);
+  position: fixed;
+  top: 0;
+  padding-top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.main-header__logomark {
+  display: none;
+  margin-bottom: 0.625rem;
+  max-height: 50px;
+}
+
+.main-header.scroll .main-header-contact,
+.main-header.scroll .main-header-user,
+.main-header.scroll .header-contacts,
+.main-header.scroll #ajaxsearchlite1 {
+  display: none;
+  margin: 0;
+}
+
+.main-header.scroll .main-header-contact__button {
+  font-size: 0.875rem;
+}
+
+.main-header.scroll .main-header__logomark {
+  display: flex;
+}
+
+.main-header.scroll .main-header-user__link {
+  display: none;
+}
+.main-header.scroll .main-header__logo {
+  display: none;
+}
+
+.main-header-user {
+  text-align: right;
+  margin-top: 0.750rem;
+}
+
+.main-header-user__link {
+  color: #262b5f;
+  display: inline-block;
+  font-weight: 600;
+  padding: 0 0.500rem;
+}
+
+.main-header-user__link:last-of-type {
+  border-left: 1px solid #63bda4;
+}
+
+
+.main-header-contact {
+  color: #63bda4;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+.main-header-contact__emphasis {
+  color: #262b5f;
+  font-size: 1.125rem;
+}
+
+.main-header-contact__button {
+  background-image: url('/web/20250429051950im_/https://heylep.com/wp-content/themes/humberlep_wp_growth_hub/img/layout/header/phone.png');
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center left 10px;
+  background-color: #452857;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1.125rem;
+  display: inline-block;
+  padding: 0.9375rem 0.625rem 0.9375rem 2.75rem;
+  transition: all .25s linear;
+}
+
+.main-header-contact__button:hover {
+  background-color: #63bda4;
+  color: #fff;
+}
+
+.main-header-contact__button:focus,
+.main-header-contact__button:active {
+  background-color: #63bda4;
+  color: #e9e9e9;
+}
+
+
+.primary-navigation-toggle {
+  background-color: #262b5f;
+  color: #fff;
+  display: block;
+  font-size: 1.125rem;
+  text-align: center;
+  margin-top: 0.9375rem;
+  padding: 0.625rem;
+  width: 100%;
+}
+.primary-navigation-toggle:hover,
+.primary-navigation-toggle:active,
+.primary-navigation-toggle:focus {
+  color: #fff;
+}
+
+.primary-navigation-toggle.toggled {
+  background-color: #fff;
+  border: 1px solid #262b5f;
+  color: #262b5f;
+}
+
+.primary-navigation {
+  text-align: right;
+  line-height: 1;
+  margin-bottom: 0.500rem;
+  margin-top: 0.500rem;
+}
+
+.primary-navigation-list {
+  list-style: none;
+  margin: 0;
+}
+
+.primary-navigation-list .dropdown {
+  background-color: #fff;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  display: none;
+  left: 0;
+  padding: 0.3125rem;
+  margin: 0;
+  min-width: 100%;
+  text-align: left;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1000;
+}
+
+.primary-navigation-list .dropdown .menu-item {
+  display: block;
+}
+.primary-navigation-list .dropdown .menu-item a {
+  font-size: 0.875rem;
+  border-width: 2px;
+  padding: 0.3125rem;
+  margin: 0;
+}
+
+.primary-navigation-list .menu-item {
+  display: inline-block;
+  position: relative;
+}
+
+.primary-navigation-list .menu-item:hover .dropdown {
+  display: block;
+}
+
+.primary-navigation-list .menu-item a {
+  display: block;
+  color: var(--color--blue);
+  border-bottom: 4px solid transparent;
+  font-size: 1.125rem;
+  margin: 0.500rem 0.750rem;
+  padding-bottom: 0.375rem;
+  transition: all .25s linear;
+}
+
+@media screen and (max-width: 1199px) {
+  .primary-navigation-column.large-11 {
+    /* display: none; */
+  }
+}
+
+@media screen and (max-width: 1530px) {
+  .primary-navigation-list .menu-item a {
+    font-size: 1rem;
+    margin: 0.5rem 0.25rem;
+  }
+}
+
+.primary-navigation-list .menu-item a:hover {
+  border-bottom-color: #262b5f;
+}
+
+.primary-navigation-list .menu-item.current-menu-parent > a,
+.primary-navigation-list .menu-item.current-menu-item > a,
+.primary-navigation-list .menu-item a:active {
+  border-bottom-color: #63bda4;
+}
+
+/*
+     FILE ARCHIVED ON 05:19:50 Apr 29, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:50:35 Sep 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.783
+  exclusion.robots: 0.029
+  exclusion.robots.policy: 0.011
+  esindex: 0.017
+  cdx.remote: 59.487
+  LoadShardBlock: 121.122 (3)
+  PetaboxLoader3.datanode: 216.629 (5)
+  load_resource: 442.616 (2)
+  PetaboxLoader3.resolve: 143.693
+*/

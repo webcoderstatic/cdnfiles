@@ -1,0 +1,65 @@
+.lep-navigation {
+  background-color: #fff;
+  border-bottom: 1px solid #e9e9e9;
+  position: relative;
+}
+
+.lep-navigation__text {
+  display: inline-block;
+  font-size: 0.750em;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 7px;
+}
+
+
+.lep-navigation-list {
+  font-size: 0.875em;
+  list-style: none;
+  margin: 0;
+}
+
+.lep-navigation-list .menu-item {
+  display: inline-block;
+}
+
+.lep-navigation-list .menu-item a {
+  display: block;
+  font-size: 1em;
+  color: var(--color--blue);
+  font-weight: 400;
+  padding: 0.500em 0.750em;
+  transition: all .25s linear;
+}
+
+.lep-navigation-list .menu-item a:hover {
+  background-color: #e9e9e9;
+}
+
+.lep-navigation-list .menu-item.current a {
+  background-color: #63bda4;
+  color: #fff;
+}
+
+
+/*
+     FILE ARCHIVED ON 05:19:50 Apr 29, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:50:36 Sep 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.489
+  exclusion.robots: 0.014
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 51.756
+  LoadShardBlock: 244.476 (3)
+  PetaboxLoader3.datanode: 289.011 (5)
+  load_resource: 275.143 (2)
+  PetaboxLoader3.resolve: 55.378
+*/

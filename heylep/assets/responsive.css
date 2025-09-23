@@ -1,0 +1,289 @@
+/* https://foundation.zurb.com/sites/docs/media-queries.html */
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .lep-navigation__text {
+    display: none;
+
+    position: static;
+    margin-bottom: 0.625rem;
+    margin-top: 0.625rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .lep-navigation-list {
+    font-size: 0;
+  }
+
+  .lep-navigation-list .menu-item {
+    width: 33%;
+  }
+
+  .lep-navigation-list .menu-item a {
+    font-size: 0.625rem;
+    margin: 0;
+    text-align: center;
+  }
+
+  .main-header {
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,.25);
+  }
+  .main-header__logo img {
+    max-width: 49%;
+    max-height: 70px;
+  }
+  .home-banner {
+    max-height: unset;
+  }
+
+  .home-banner__title {
+    font-size: 2.25rem;
+  }
+
+  .home-banner__content {
+    font-size: 1rem;
+  }
+
+  .main-header-user {
+    text-align: center;
+  }
+
+  .main-header-contact {
+    display: inline;
+    font-size: 1rem;
+  }
+
+  .primary-navigation {
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .primary-navigation-list {
+    border-bottom: 1px solid #262b5f;
+    border-left: 1px solid #262b5f;
+    border-right: 1px solid #262b5f;
+  }
+
+  .primary-navigation-list li:first-child a {
+    margin-top: 0;
+  }
+
+  .primary-navigation-list .menu-item {
+    display: block;
+  }
+
+  .home-banner-wrap {
+    display: none;
+  }
+
+  .home-banner__inner {
+    min-width: unset;
+    width: 80%;
+  }
+
+  .home-banner__button {
+    margin-bottom: 0.625rem;
+  }
+
+  .home-banner__search {
+    margin-top: 1.25rem;
+  }
+
+  .home-business-support {
+    margin-bottom: 0;
+    margin-top: 0.625rem;
+  }
+
+  .home-business-support-list {
+    font-size: 0;
+  }
+
+  .home-business-support-list__link {
+    width: 100%;
+  }
+
+  .home-updates {
+    padding-top: 2.5rem;
+  }
+
+  .home-advisors {
+    margin-bottom: 0;
+    margin-top: 1.25rem;
+  }
+
+  .home-advisors__title,
+  .home-advisors__sub-title {
+    text-align: left;
+  }
+
+  .home-advisors-advisor__title {
+    font-size: 1.125rem;
+  }
+
+  .home-advisors__sub-title {
+    margin-bottom: 1rem;
+  }
+
+  .home-advisors__summary {
+    font-size: 1.125rem;
+  }
+
+  .home-advisors-advisor {
+    margin-bottom: 1rem;
+  }
+
+  .home-updates-item__content {
+    position: relative;
+  }
+
+  .home-updates-item__title {
+    font-size: 1.5rem;
+    padding-right: 0;
+  }
+
+  .home-updates__posts {
+    margin-bottom: 1rem;
+  }
+
+  .home-sme__inner {
+    margin-left: 0;
+  }
+
+  .primary-footer-navigation {
+    margin-top: 1.25rem;
+  }
+
+  .page-header__title {
+    font-size: 2rem;
+  }
+
+  .primary-navigation-list .dropdown {
+    position: static;
+  }
+
+  .sectors {
+    margin: 0;
+    padding: 0;
+  }
+
+  .business-types a {
+    font-size: 0.875rem;
+    padding: 0.3125rem;
+  }
+
+  .primary-footer__logo {
+    margin-bottom: 1.25rem;
+  }
+
+  .sidebar {
+    margin-top: 1.25rem;
+  }
+
+  .module-header-content-wrap {
+    margin-bottom: 0.625rem;
+  }
+
+  .module-header-content__title {
+    margin-bottom: 0.9375rem;
+  }
+
+  .module-header-links__link {
+    font-size: 0.9375rem;
+    padding: 0.625rem;
+  }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .home-banner__title {
+    font-size: 3rem;
+  }
+
+  .home-banner__content {
+    font-size: 1.5rem;
+  }
+
+  .home-banner__button {
+    margin-bottom: 0.625rem;
+  }
+
+  .home-advisors-advisor {
+    margin-bottom: 1rem;
+  }
+
+  .home-updates-item__content {
+    position: relative;
+  }
+
+  .home-updates-item__title {
+    font-size: 1.5rem;
+    padding-right: 0;
+  }
+}
+
+/* Large and down */
+@media screen and (max-width: 74.9375rem) {
+  .module-header-content-advisors__title {
+    font-size: 1.5rem;
+  }
+
+  .module-header-content-advisors__sub-title {
+    font-size: 1.5rem;
+  }
+
+  .module-header-content {
+    padding: 1.25rem 0.625rem;
+  }
+
+  .module-header-content__title {
+    font-size: 1.125rem;
+  }
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+
+}
+
+/* Large only */
+@media screen and (min-width: 64rem) and (max-width: 74.9375rem) {
+  .main-header__logo img {
+    max-width: 49%;
+    max-height: 70px;
+  }
+
+  .module-header-content {
+    padding: 1.25rem 0.625rem;
+  }
+
+  .module-header-content__title {
+    font-size: 1.125rem;
+  }
+}
+
+/*
+     FILE ARCHIVED ON 05:19:51 Apr 29, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:50:38 Sep 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.661
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.009
+  esindex: 0.012
+  cdx.remote: 684.242
+  LoadShardBlock: 1096.242 (3)
+  PetaboxLoader3.resolve: 1477.131 (5)
+  PetaboxLoader3.datanode: 922.493 (5)
+  load_resource: 1347.153 (2)
+*/

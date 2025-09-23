@@ -1,0 +1,71 @@
+body {
+  background: #fff;
+  color: #262b5f;
+  padding: 0;
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+}
+body.home {
+  background: #fff;
+}
+
+.row.large {
+  max-width: 100rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Barlow', sans-serif;
+}
+
+.content-box a:not(.content-button) {
+  text-decoration: underline;
+}
+
+.content-button {
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #262b5f;
+}
+
+/*
+     FILE ARCHIVED ON 05:19:46 Apr 29, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:50:35 Sep 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.474
+  exclusion.robots: 0.016
+  exclusion.robots.policy: 0.007
+  esindex: 0.01
+  cdx.remote: 161.149
+  LoadShardBlock: 363.47 (3)
+  PetaboxLoader3.datanode: 699.644 (4)
+  load_resource: 535.129
+  PetaboxLoader3.resolve: 137.252
+*/
