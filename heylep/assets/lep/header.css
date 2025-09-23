@@ -1,0 +1,106 @@
+@media screen and (min-width: 767px) {
+  .primary-navigation {
+    text-align: center !important;
+  }
+}
+
+.header-contacts {
+  text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  #ajaxsearchlite1 {
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+  }
+
+  .header-contacts {
+    text-align: left;
+    margin-bottom: 0.625rem;
+  }
+}
+
+.header-contact {
+  margin-bottom: 0.3125rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .header-contact {
+    display: inline-block;
+  }
+}
+
+.header-contact__type {
+  color: #63bda4;
+}
+
+.header-contact__link {
+  color: #262b5f;
+}
+
+.lep-navigation {
+  position: relative;
+}
+
+.lep-navigation-tooltip {
+  background-color: #63bda4;
+  border-radius: 10px;
+  box-shadow: 1px 4px 2px 0px rgba(6,137,189,.25);
+  color: #fff;
+  display: none;
+  font-size: 0.9375rem;
+  line-height: 1.1;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 640px;
+  text-align: center;
+  left: 50%;
+  top: 135%;
+  transform: translateX(-50%);
+  position: absolute;
+  padding: 0.9375rem 0.625rem;
+  z-index: 999;
+}
+
+.lep-navigation-tooltip::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #63bda4 transparent;
+  top: -20px;
+  left: 50%;
+}
+
+.lep-navigation-tooltip__inner {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lep-navigation-tooltip__inner p {
+  line-height: 1.1;
+  margin: 0;
+}
+
+/*
+     FILE ARCHIVED ON 05:19:41 Apr 29, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:50:34 Sep 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 9.508
+  exclusion.robots: 0.03
+  exclusion.robots.policy: 0.013
+  esindex: 0.014
+  cdx.remote: 142.848
+  LoadShardBlock: 728.725 (3)
+  PetaboxLoader3.datanode: 721.609 (4)
+  load_resource: 42.518
+*/

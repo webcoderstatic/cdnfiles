@@ -1,0 +1,46 @@
+.main-footer {
+  font-size: 0.75rem;
+  margin-bottom: 5rem;
+  margin-top: 2.5rem;
+  padding-top: 1.5625rem;
+  border-top: 1px solid #262b5f;
+}
+
+.main-footer__image {
+  margin-bottom: 5rem;
+}
+
+.main-footer-navigation {
+  list-style: none;
+  margin: 0;
+}
+
+.main-footer-navigation li {
+  display: inline-block;
+  margin-right: 0.3125rem;
+}
+
+.main-footer-navigation a {
+  color: #262b5f;
+}
+
+/*
+     FILE ARCHIVED ON 05:19:43 Apr 29, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:50:32 Sep 23, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.61
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.01
+  esindex: 0.012
+  cdx.remote: 93.394
+  LoadShardBlock: 162.982 (3)
+  PetaboxLoader3.datanode: 271.891 (4)
+  load_resource: 438.179
+  PetaboxLoader3.resolve: 223.038
+*/
