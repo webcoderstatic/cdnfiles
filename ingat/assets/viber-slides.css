@@ -1,0 +1,74 @@
+.owl-carousel .owl-slide .bg-slide-image.--desktop {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    background-position: -100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media (min-width: 768px) {
+    .owl-carousel .owl-slide .bg-slide-image.--desktop {
+      display: block;
+      height: 500px;
+    }
+  }
+  @media (min-width: 992px) {
+    .owl-carousel .owl-slide .bg-slide-image.--desktop {
+      display: block;
+      height: 700px;
+      background-position: -140px -120px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .owl-carousel .owl-slide .bg-slide-image.--desktop {
+      display: block;
+      height: 700px;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  .owl-carousel .owl-slide .bg-slide-image.--mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    background-size: contain;
+  }
+  @media (min-width: 768px) {
+    .owl-carousel .owl-slide .bg-slide-image.--mobile {
+      display: none;
+    }
+  }
+  .slider .owl-carousel .owl-dots {
+    bottom: 12%;
+    left: 0;
+    transform: none;
+    text-align: center;
+    width: 100%;
+  }
+
+/*
+     FILE ARCHIVED ON 12:09:35 Mar 13, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:30:03 Sep 20, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.547
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.008
+  esindex: 0.01
+  cdx.remote: 76.385
+  LoadShardBlock: 126.788 (3)
+  PetaboxLoader3.datanode: 141.163 (4)
+  load_resource: 120.071
+  PetaboxLoader3.resolve: 64.176
+*/
