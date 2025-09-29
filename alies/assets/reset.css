@@ -1,0 +1,47 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{
+	margin:0;
+	padding:0;
+	border:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:inherit;
+	vertical-align:baseline;
+}
+body 
+{
+	line-height:1.5;
+}
+blockquote:before, blockquote:after, q:before, q:after 
+{
+	content:"";
+}
+blockquote, q 
+{
+	quotes:"" "";
+}
+a img 
+{
+	border:none;
+}
+/*
+     FILE ARCHIVED ON 21:55:55 Jun 02, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:01:34 Sep 29, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.086
+  exclusion.robots: 0.041
+  exclusion.robots.policy: 0.026
+  esindex: 0.015
+  cdx.remote: 104.2
+  LoadShardBlock: 407.563 (3)
+  PetaboxLoader3.datanode: 293.32 (5)
+  PetaboxLoader3.resolve: 430.69 (3)
+  load_resource: 487.423 (2)
+*/

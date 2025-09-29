@@ -1,0 +1,56 @@
+.parallax-block {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+  max-width: none !important;
+  max-height: none !important;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -ms-perspective: 1000px;
+  -o-perspective: 1000px;
+  perspective: 1000px;
+}
+.parallax-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: none !important;
+  max-height: none !important;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -ms-perspective: 1000px;
+  -o-perspective: 1000px;
+  perspective: 1000px;
+}
+/*
+     FILE ARCHIVED ON 12:15:06 May 21, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:01:35 Sep 29, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.905
+  exclusion.robots: 0.04
+  exclusion.robots.policy: 0.026
+  esindex: 0.016
+  cdx.remote: 77.95
+  LoadShardBlock: 315.514 (3)
+  PetaboxLoader3.datanode: 210.252 (4)
+  load_resource: 149.531
+  PetaboxLoader3.resolve: 66.169
+*/
