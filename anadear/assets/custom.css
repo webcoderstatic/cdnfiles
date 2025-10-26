@@ -1,0 +1,915 @@
+
+/*  Dark Mode
+ *
+ *	To make your theme permanently dark you can
+ *	add the class "dark" to the <body> tag in 
+ *	template.html to activate. Otherwise the dark mode 
+ *	script will apply it when a visitor switches it on.
+ *	
+--------------------------------------------- */
+
+body,
+body.dark {
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+}
+
+body.dark {
+	color:#8D8D8D;
+}
+
+body.dark::-webkit-scrollbar,
+body.dark::-webkit-scrollbar-thumb {
+	background-color:#fff;
+	border-color:#333333;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6,
+body.dark .tableh1 {
+	color:#eee;
+}
+
+body.dark .site-title {
+	color:#f7f7f7;
+	text-shadow:2px 2px 0 #232323;
+}
+
+body.dark .top-container .site-navigation--wrap:before {
+	background:#C4C4C4;
+}
+
+body.dark .tableh1 span.top {
+	border-image:url('mast-head-bg-invert.jpg') 40 stretch;
+}
+
+body.dark,
+body.dark blockquote:before,
+body.dark blockquote:after {
+	background:#333333;
+}
+
+body.dark img {
+	border-color:#444444;
+}
+
+body.dark .textinput,
+body.dark input,
+body.dark textarea,
+body.dark select,
+body.dark .tableb input {
+	color:#eee;
+	background-color:#333333;
+	border-color:#333333;
+}
+
+body.dark .tableh2 select,
+body.dark .tablef select {
+	color:#eee;
+	background-color:#232323;
+	border-color:#333333;
+}
+
+body.dark .tableb_alternate input,
+body.dark .tableb_alternate select,
+body.dark .toolwrap input,
+body.dark .toolwrap textarea,
+body.dark .toolwrap select {
+	background:#232323;
+}
+
+body.dark button,
+body.dark input[type='reset'],
+body.dark input[type='submit'],
+body.dark input[type='button'] {
+	color:#fff;
+	background:#8a745f;
+	border:0;
+}
+
+body.dark button:hover {
+	background:#333333;
+}
+
+body.dark,
+body.dark .main-nav ul li a,
+body.dark .top-container .site-navigation--wrap:after {
+	color:#C4C4C4;
+}
+
+body.dark .top-container:after {
+	background:#232323;
+	border-color:rgba(0,0,0,.26);
+}
+
+/*  Coppermine CSS  ---------- */
+
+body.dark .admin_menu a,
+body.dark .admin_menu a:hover,
+body.dark .admin_menu a:focus {
+	color:#D6D6D6;
+}
+
+body.dark .maintable {
+	margin:0 auto 15px;
+	padding:15px;
+	color:#8D8D8D;
+	background:#232323;
+}
+
+body.dark .admin_menu_wrapper,
+body.dark .toolwrap {
+	background:#333333;
+}
+
+body.dark .admin_menu {
+	background:#232323;
+}
+
+body.dark .maintable:has(.listbox) .tableb_alternate {
+	color:#eee;
+	background:#333333;
+}
+
+body.dark .thumb_title_title {
+	color:#C4C4C4;
+}
+
+body.dark .thumb_resolution,
+body.dark .thumb_title_views {
+	color:#8D8D8D;
+	background:#333333;
+	border-color:#333333;
+}
+
+body.dark .thumb_caption_ctime {
+	border-color:#333333;
+}
+
+body.dark .catrow_noalb,
+body.dark .catrow {
+	padding:0 10px; 
+	color:#8D8D8D;
+	background:transparent; 
+	font-size:13px;
+	border-color:#333333;
+}
+
+body.dark .catlink a {
+	color:#C4C4C4;
+}
+
+body.dark .catlink a:hover,
+body.dark .catlink a:focus {
+	color:#C74E43;
+}
+
+body.dark .catlink b {
+	box-shadow:inset 0 -8px 0 #1A1A1A;
+}
+
+body.dark .catlink b:before {
+	color:#8a745f;
+	box-shadow:inset 10px -7px 0 #232323,
+	0 7px 0 #232323;
+}
+
+body.dark .catrow span.cat-desc {
+	color:#8D8D8D;
+}
+
+body.dark .catrow span.cat-desc strong,
+body.dark .catrow span.cat-desc b {
+	color:#8a745f
+}
+
+body.dark .catrow span.cat-desc em,
+body.dark .catrow span.cat-desc i {
+	color:#C4C4C4;
+}
+
+body.dark .stats div {
+	padding-top:15px;
+	padding-bottom:15px;
+	position:relative;
+	color:#fff; 
+	background:#8a745f;
+	border-color:#8a745f;
+}
+
+body.dark .stats strong {
+	color:#fff; 
+}
+
+body.dark .tableh1-stat-wrap,
+body.dark .tableh2,
+body.dark .navmenu {
+	color:#C4C4C4;
+	background:#333333;
+	border-color:#333333;
+}
+
+body.dark .tableb span {
+	color:#eee;
+}
+
+body.dark table#album_sort tr td {
+	color:#D6D6D6;
+	background-color:#232323;
+	border-color:#333333;
+}
+
+body.dark table#album_sort span {
+	color:#D6D6D6!important;
+}
+
+body.dark .tableh2 b,
+body.dark .tableh2 strong,
+body.dark .tableh2 a {
+	color:#C4C4C4;
+}
+
+body.dark .tableh1-alt {
+	padding:0;
+	color:#C4C4C4;
+	background:#232323;
+}
+
+body.dark .tableh1-alt a,
+body.dark .tableh1-alt a:hover,
+body.dark .tablef a {
+	color:#C4C4C4;
+}
+
+body.dark .tableb_alternate_2:after {
+	display:none;
+}
+
+body.dark .tabs-table,
+body.dark .tabs-table .navmenu {
+	background:#232323;
+	border-color:#333333;
+}
+
+body.dark .tabs-table .navmenu-active {
+	border-color:#333333;
+}
+
+body.dark .tablef {
+	background:#333333;
+}
+
+/*  Site Footer  ---------- */
+
+body.dark .site-footer {
+	color:#5B5B5B;
+	background:#111111;
+	border-color:rgba(0,0,0,.26);
+}
+
+body.dark .site-footer,
+body.dark .site-footer .site-disclaimer {
+	border-top:1px solid #373737;
+}
+
+
+/*  Responsive CSS ---------- */
+
+@media screen and (max-width:1099px) {
+
+	body.dark .cpg-nav-wrap {
+		background:#1A1A1A;
+	}
+	body.dark .cpg-nav a {
+		color:#A2A2A2;
+	}
+	body.dark .mobile-title,
+	body.dark .mobile-title a,
+	body.dark .mobile-title a:hover,
+	body.dark .mobile-title a:focus {
+		color:#f7f7f7;
+	}
+	body.dark .show-menu:before {
+		content:'\f0c9';
+		color:#eee;
+		background:#303030;
+		border:1px solid #232323;
+	}
+	body.dark .top-container .site-navigation--wrap {
+		color:#eee;
+		background:#232323;
+		border-color:#333333;
+	}
+	body.dark .social-nav-wrap {
+		background:#232323;
+		border-top:1px solid #333333;
+	}
+	body.dark .show-social,
+	body.dark .show-social:hover,
+	body.dark .show-social:focus {
+		background:none;
+	}
+	body.dark .show-social:before {
+		color:#eee;
+	}
+	body.dark .main-nav ul li {
+		background:#232323;
+		border-color:#333333;
+	}
+	body.dark .main-nav ul li ul li:first-child {
+		border-radius:5px 5px 0 0;
+	}
+	body.dark .main-nav ul li ul li:last-child {
+		border-radius:0 0 5px 5px;
+	}
+	body.dark .main-nav ul li,
+	body.dark .main-nav li a,
+	body.dark .main-nav .active a,
+	body.dark .main-nav .current-menu-item a {
+		color:#eee;
+	}
+	body.dark .main-nav ul li ul.sub-menu {
+		background:none;
+	}
+	body.dark .main-nav ul li ul.sub-menu li {
+		background:#2A2A2A;
+		border-color:#232323;
+	}
+	body.dark .social-menu .social-nav a {
+		color:#999;
+		background:#2A2A2A;
+		border-color:#2A2A2A;
+	}
+	body.dark .mobile-date {
+		background-color:#232323;
+		border-color:#232323;
+	}
+}
+
+
+
+/*  Hide Elements
+ *
+ *	Add the corresponding class to the
+ *	<body> tag in template.html to activate.
+ *
+ *	Usage Examples:
+ *
+ *	<body class="hide_sitename">
+ *
+ *	You can apply multiple changes to the theme
+ *	by using multiple classes at once. 
+ *
+ *	IMPORTANT: Make sure they're spaced apart like the example below.
+ *
+ *	<body class="right_sidebar light_sidebar hide_header hide_sitename">
+--------------------------------------------- */
+
+	/*  Hide Site Name
+	 *	
+	 *	Class: hide_sitename 
+	------------------------------ */
+	body.hide_sitename .site-title {
+		display:none;
+	}
+	
+	/*  Hide Mobile Social Navigation
+	 *
+	 *	Class: hide_socialnav
+	------------------------------ */
+	body.hide_socialnav .mast-head .social-nav,
+	body.hide_socialnav .show-social,
+	body.hide_socialnav .social-menu,
+	body.hide_socialnav .social-nav-wrap {
+		display:none;
+	}
+	
+	/*  Hide Dark Mode Switch Button
+	 *
+	 *	Class: hide_darkmodeswitch
+	------------------------------ */
+	body.hide_darkmodeswitch .dark-mode-switch {
+		display:none;
+	}
+	
+
+/*  Site Name Icons
+ *
+ *	Add class "rounded_borders" to the
+ *	<body> tag in template.html to activate.
+--------------------------------------------- */
+
+	body.sitenameicon_star .site-title:before {
+		content:'\f005';
+	}
+	body.sitenameicon_heart .site-title:before {
+		content:'\f004';
+	}
+	body.sitenameicon_bullseye .site-title:before {
+		content:'\f140';
+	}
+	body.sitenameicon_house .site-title:before {
+		content:'\f015';
+	}	
+	body.sitenameicon_gem .site-title:before {
+		content:'\f3a5';
+	}
+	body.sitenameicon_hide .site-title {
+		padding-left:0;
+		left:0;
+	}
+	body.sitenameicon_hide .site-title:before,
+	body.sitenameicon_hide .site-title:after {
+		display:none;
+	}
+	
+
+/*  Fonts
+ *
+ *	Add class "rounded_borders" to the
+ *	<body> tag in template.html to activate.
+--------------------------------------------- */
+
+	/*  Navigation Fonts & Font Style
+	--------------------------------------------- */
+	@media screen and (min-width:1100px) {
+		body.navfont_montserrat .main-nav ul li a  {
+			font-family:Montserrat;
+		}
+		body.navfont_oswald .main-nav ul li a  {
+			font-family:Oswald;
+		}
+		body.navfont_merriweather .main-nav ul li a {
+			font-family:Merriweather;
+		}
+		body.navfont_style_normal .main-nav ul li a {
+			font-weight:400;
+			text-transform:none;
+		}
+		body.navfont_style_bold .main-nav ul li a {
+			font-weight:600,700;
+			text-transform:none;
+		}
+		body.navfont_style_italic .main-nav ul li a {
+			font-style:italic;
+			font-weight:400;
+			text-transform:none;
+		}
+		body.navfont_style_bold_italic .main-nav ul li a {
+			font-style:italic;
+			font-weight:600,700;
+			text-transform:none;
+		}
+		body.navfont_style_all_caps .main-nav ul li a {
+			text-transform:uppercase;
+			font-weight:400;
+		}
+		body.navfont_style_all_caps_bold_italic .main-nav ul li a {
+			font-weight:600,700;
+			font-style:italic;
+			text-transform:uppercase;
+		}
+		body.navfont_style_all_caps_italic .main-nav ul li a {
+			font-style:italic;
+			text-transform:uppercase;
+			font-weight:400;
+		}
+		body.navfont_style_all_caps_bold .main-nav ul li a {
+				font-weight:600,700;
+			text-transform:uppercase;
+		}
+	}
+	
+	/*  Body Fonts
+	--------------------------------------------- */
+	body.bodyfont_opensans body {
+		font-family:Open Sans;
+	}
+	body.bodyfont_lato body {
+		font-family:Lato;
+	}
+	body.bodyfont_merriweather body {
+		font-family:Merriweather;
+	}
+	
+	/*  Heading Fonts
+	--------------------------------------------- */
+	body.headfont_playdisplay h1,
+	body.headfont_playdisplay h2,
+	body.headfont_playdisplay h3,
+	body.headfont_playdisplay h4,
+	body.headfont_playdisplay h5,
+	body.headfont_playdisplay h6,
+	body.headfont_playdisplay .tableh1,
+	body.headfont_playdisplay .catlink a,
+	body.headfont_playdisplay .statlink h2 {
+		font-family:Playfair Display;
+	}
+	body.headfont_montserrat h1,
+	body.headfont_montserrat h2,
+	body.headfont_montserrat h3,
+	body.headfont_montserrat h4,
+	body.headfont_montserrat h5,
+	body.headfont_montserrat h6,
+	body.headfont_montserrat .tableh1,
+	body.headfont_montserrat .catlink a,
+	body.headfont_montserrat .statlink h2 {
+		font-family:Montserrat;
+	}
+	body.headfont_oswald h1,
+	body.headfont_oswald h2,
+	body.headfont_oswald h3,
+	body.headfont_oswald h4,
+	body.headfont_oswald h5,
+	body.headfont_oswald h6,
+	body.headfont_oswald .tableh1,
+	body.headfont_oswald .catlink a,
+	body.headfont_oswald .statlink h2 {
+		font-family:Oswald;
+	}
+
+	/*  Heading Font Style
+	--------------------------------------------- */
+	body.headfont_style_normal h1,
+	body.headfont_style_normal h2,
+	body.headfont_style_normal h3,
+	body.headfont_style_normal h4,
+	body.headfont_style_normal h5,
+	body.headfont_style_normal h6,
+	body.headfont_style_normal .tableh1,
+	body.headfont_style_normal .catlink a {
+		font-weight:400;
+		text-transform:none;
+	}
+	body.headfont_style_bold h1,
+	body.headfont_style_bold h2,
+	body.headfont_style_bold h3,
+	body.headfont_style_bold h4,
+	body.headfont_style_bold h5,
+	body.headfont_style_bold h6,
+	body.headfont_style_bold .tableh1,
+	body.headfont_style_bold .catlink a,
+	body.headfont_style_bold .statlink h2 {
+		font-weight:700;
+		text-transform:none;
+	}
+	body.headfont_style_italic h1,
+	body.headfont_style_italic h2,
+	body.headfont_style_italic h3,
+	body.headfont_style_italic h4,
+	body.headfont_style_italic h5,
+	body.headfont_style_italic h6,
+	body.headfont_style_italic .tableh1,
+	body.headfont_style_italic .catlink a,
+	body.headfont_style_italic .statlink h2 {
+		font-style:italic;
+		font-weight:400;
+		text-transform:none;
+	}
+	body.headfont_style_bold_italic h1,
+	body.headfont_style_bold_italic h2,
+	body.headfont_style_bold_italic h3,
+	body.headfont_style_bold_italic h4,
+	body.headfont_style_bold_italic h5,
+	body.headfont_style_bold_italic h6,
+	body.headfont_style_bold_italic .tableh1,
+	body.headfont_style_bold_italic .catlink a,
+	body.headfont_style_bold_italic .statlink h2 {
+		font-style:italic;
+		font-weight:700;
+		text-transform:none;
+	}
+	body.headfont_style_all_caps h1,
+	body.headfont_style_all_caps h2,
+	body.headfont_style_all_caps h3,
+	body.headfont_style_all_caps h4,
+	body.headfont_style_all_caps h5,
+	body.headfont_style_all_caps h6,
+	body.headfont_style_all_caps .tableh1,
+	body.headfont_style_all_caps .catlink a,
+	body.headfont_style_all_caps .statlink h2 {
+		text-transform:uppercase;
+		font-weight:400;
+	}
+	body.headfont_style_all_caps_bold_italic h1,
+	body.headfont_style_all_caps_bold_italic h2,
+	body.headfont_style_all_caps_bold_italic h3,
+	body.headfont_style_all_caps_bold_italic h4,
+	body.headfont_style_all_caps_bold_italic h5,
+	body.headfont_style_all_caps_bold_italic h6,
+	body.headfont_style_all_caps_bold_italic .tableh1,
+	body.headfont_style_all_caps_bold_italic .catlink a,
+	body.headfont_style_all_caps_bold_italic .statlink h2 {
+		font-weight:700;
+		font-style:italic;
+		text-transform:uppercase;
+	}
+	body.headfont_style_all_caps_italic h1,
+	body.headfont_style_all_caps_italic h2,
+	body.headfont_style_all_caps_italic h3,
+	body.headfont_style_all_caps_italic h4,
+	body.headfont_style_all_caps_italic h5,
+	body.headfont_style_all_caps_italic h6,
+	body.headfont_style_all_caps_italic .tableh1,
+	body.headfont_style_all_caps_italic .catlink a,
+	body.headfont_style_all_caps_italic .statlink h2 {
+		font-style:italic;
+		text-transform:uppercase;
+		font-weight:400;
+	}
+	body.headfont_style_all_caps_bold h1,
+	body.headfont_style_all_caps_bold h2,
+	body.headfont_style_all_caps_bold h3,
+	body.headfont_style_all_caps_bold h4,
+	body.headfont_style_all_caps_bold h5,
+	body.headfont_style_all_caps_bold h6,
+	body.headfont_style_all_caps_bold .tableh1,
+	body.headfont_style_all_caps_bold .catlink a,
+	body.headfont_style_all_caps_bold .statlink h2 {
+		font-weight:700;
+		text-transform:uppercase;
+	}
+
+	/*  CPG Nav Fonts
+	--------------------------------------------- */
+	body.cpgnav_font_montserrat .cpg-nav a {
+		font-family:Montserrat;
+	}
+	body.cpgnav_font_oswald .cpg-nav a {
+		font-family:Oswald;
+	}
+	body.cpgnav_font_lato .cpg-nav a {
+		font-family:Lato;
+	}
+	body.cpgnav_font_merriweather .cpg-nav a {
+		font-family:Merriweather;
+	}
+	
+	/*  CPG Nav Font Style
+	--------------------------------------------- */
+	body.cpgnav_style_normal .cpg-nav a {
+		font-weight:400;
+		text-transform:none;
+	}
+	body.cpgnav_style_bold .cpg-nav a {
+		font-weight:700;
+		text-transform:none;
+	}
+	body.cpgnav_style_italic .cpg-nav a {
+		font-style:italic;
+		font-weight:400;
+		text-transform:none;
+	}
+	body.cpgnav_style_bold_italic .cpg-nav a {
+		font-style:italic;
+		font-weight:700;
+		text-transform:none;
+	}
+	body.cpgnav_style_all_caps .cpg-nav a {
+		text-transform:uppercase;
+		font-weight:400;
+	}
+	body.cpgnav_style_all_caps_bold_italic .cpg-nav a {
+		font-weight:700;
+		font-style:italic;
+		text-transform:uppercase;
+	}
+	body.cpgnav_style_all_caps_italic .cpg-nav a {
+		font-style:italic;
+		text-transform:uppercase;
+		font-weight:400;
+	}
+	body.cpgnav_style_all_caps_bold .cpg-nav a {
+		font-weight:700;
+		text-transform:uppercase;
+	}
+	
+	
+/*  Rounded Borders
+ *
+ *	Add class "rounded_borders" to the
+ *	<body> tag in template.html to activate.
+--------------------------------------------- */
+
+	body.rounded_borders img,
+	body.rounded_borders .cpg-nav,
+	body.rounded_borders .cpg-nav-wrap,
+	body.rounded_borders .cpg-nav-bg,
+	body.rounded_borders .cpg-nav a,
+	body.rounded_borders .maintable,
+	body.rounded_borders .tableh1-alt,
+	body.rounded_borders .tableh1-stat-wrap,
+	body.rounded_borders .tableh2,
+	body.rounded_borders .tabs-table,
+	body.rounded_borders .stats div,
+	body.rounded_borders .thumb_caption,
+	body.rounded_borders .thumb_filename,
+	body.rounded_borders .thumb_num_comments,
+	body.rounded_borders .thumb_title_views,
+	body.rounded_borders .thumb_resolution,
+	body.rounded_borders .thumb_caption_ctime,
+	body.rounded_borders .thumb_caption_mtime,
+	body.rounded_borders body.dark .tablef,
+	body.rounded_borders body.dark .textinput,
+	body.rounded_borders body.dark textarea,
+	body.rounded_borders body.dark select,
+	body.rounded_borders body.dark .admin_menu_wrapper,
+	body.rounded_borders body.dark tableb,
+	body.rounded_borders .credit,
+	body.rounded_borders input,
+	body.rounded_borders textarea,
+	body.rounded_borders button,
+	body.rounded_borders blockquote,
+	body.rounded_borders .main-nav .active a,
+	body.rounded_borders .main-nav .current-menu-item a,
+	body.rounded_borders .mast-head,
+	body.rounded_borders .mast-head .wrap,
+	body.rounded_borders .mast-head .head_1,
+	body.rounded_borders .mast-head .head_1_bg,
+	body.rounded_borders .mast-head .social-nav a,
+	body.rounded_borders .footer-imgs img,
+	body.rounded_borders .footer-content .wrapper {
+		border-radius:5px;
+	}
+	body.rounded_borders button.dark-mode-switch,
+	body.rounded_borders button.dark-mode-switch:hover,
+	body.rounded_borders button.dark-mode-switch:focus {
+		border-radius:5px 5px 0 0;
+	}
+
+
+
+/*	HOW TO CHANGE YOUR THEME COLORS:
+ *
+ *	Place your color HEX code in the empty selector
+ *	between the : and ; symbols. 
+ *	
+ *	Usage examples:
+ *
+ *	background-color: #ffffff;
+ *	color: #ffffff;
+ *	
+ *	If nothing changes after refreshing your
+ *	browser, clear your browser cache.
+--------------------------------------------- */
+
+
+/*  Theme Accent Colors
+ *	
+ *	Color: #8a745f
+--------------------------------------------- */
+
+/*  Elements that use the Accent color 
+	for a background color.
+--------------------------------------------- */
+
+	::-webkit-scrollbar,
+	::-webkit-scrollbar-thumb,
+	.cpg-nav .cpg-nav-wrap,
+	.mast-head .head_1_bg,
+	.mast-head .social-nav ul li a:hover,
+	.mast-head .social-nav ul li a:focus,
+	.site-footer .credit:hover,
+	button:hover,
+	button:focus,
+	.tableh1-alt,
+	.navmenu-active,
+	.mobile-title .overlay,
+	body.dark .stats div,
+	body.dark button,
+	body.dark input[type='reset'],
+	body.dark input[type='submit'],
+	body.dark input[type='button'] {
+		background-color:;
+	}
+
+
+/*  Elements that use the Accent color 
+	for a text color.
+--------------------------------------------- */
+
+	a,
+	.site-title:before,
+	.site-title i,
+	.catlink b:before,
+	.catrow span.cat-desc strong,
+	.catrow span.cat-desc b,
+	.catlink a:hover,
+	.catlink a:focus,
+	body.dark .site-title:before,
+	body.dark .site-title i,
+	body.dark .catlink a:hover,
+	body.dark .catlink a:focus,
+	body.dark .catlink b:before,
+	body.dark .catrow span.cat-desc strong,
+	body.dark .catrow span.cat-desc b {
+		color:;
+	}
+	
+
+/*  Accent Text Color 
+ *
+ *	This is the color of the text for all elements 
+ *	using the Accent color for a background color.
+ *
+ *	Choose your color wisely so text is readable.
+--------------------------------------------- */
+
+	.mast-head .head_1_bg,
+	.mast-head .social-nav ul li a:hover,
+	.mast-head .social-nav ul li a:focus,
+	.site-footer .credit:hover,
+	button:hover,
+	button:focus,
+	.tableh1-alt,
+	.navmenu-active,
+	body.dark .stats div,
+	body.dark .stats div strong,
+	body.dark button,
+	body.dark input[type='reset'],
+	body.dark input[type='submit'],
+	body.dark input[type='button'] {
+		color:;
+	}
+
+
+/*  Extra Colors
+ *
+ *	These classes use the Accent Color
+ *	but for different elements.
+--------------------------------------------- */
+
+	.main-nav ul li a::after,
+	body.dark .stats div {
+		border-color:;
+	}
+	
+	u {
+		box-shadow:0 1px 0 HEX_CODE;
+	}
+	
+	.site-footer a:hover {
+		box-shadow:0 2px 0 HEX_CODE;
+	}
+	
+	
+/*  Header Image
+ *	
+ *	You can change the height of the header
+ *	if your header is smaller or bigger.
+ *	
+ *	Maximum height: 550px
+--------------------------------------------- */
+
+	/*  This adjusts the height of the container 
+	 *	that holds the header. It should ALWAYS
+	 *	be 50px SHORTER than the .mast-head 
+	 *	and the .mast-head .wrap divs.
+	 *	
+	 *	Default height: 450px
+	--------------------------------------------- */
+	.mast-head .head_1,
+	.mast-head .head_1_bg {
+		height:YOUR_NEW_HEIGHT;
+	}
+	
+	.mast-head .head_1 {
+		background-image:url('full-head.png');
+	}
+	/*  This adjusts the height of the container 
+	 *	that holds the header AND the social navigation. 
+	 *	It should ALWAYS be 50px TALLER than the .head_1 div.
+	 *	
+	 *	Default height: 500px
+	--------------------------------------------- */
+	.mast-head,
+	.mast-head .wrap {
+		height:YOUR_NEW_HEIGHT;
+	}
+
+/*
+     FILE ARCHIVED ON 15:31:44 Apr 02, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:35:08 Oct 26, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.878
+  exclusion.robots: 0.032
+  exclusion.robots.policy: 0.015
+  esindex: 0.017
+  cdx.remote: 84.689
+  LoadShardBlock: 234.972 (3)
+  PetaboxLoader3.datanode: 261.795 (4)
+  load_resource: 220.084
+  PetaboxLoader3.resolve: 137.063
+*/
