@@ -1,0 +1,48 @@
+.simple-banner {
+  width: 100%;
+  text-align: center;
+  z-index: 99999;
+  position: relative;
+  display: block;
+}
+
+.simple-banner .simple-banner-text {
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.simple-banner .simple-banner-button {
+  border: none;
+  background-color: transparent;
+  padding: 0 5px;
+  margin: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  transform: translate(0%, -50%);
+  right: 0;
+  top: 50%;
+  font-size: 16px;
+  cursor: pointer;
+}
+/*
+     FILE ARCHIVED ON 12:08:01 May 03, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:10:33 Oct 29, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.94
+  exclusion.robots: 0.041
+  exclusion.robots.policy: 0.023
+  esindex: 0.017
+  cdx.remote: 7.675
+  LoadShardBlock: 175.395 (3)
+  PetaboxLoader3.datanode: 132.064 (5)
+  PetaboxLoader3.resolve: 531.628 (3)
+  load_resource: 575.751
+  loaddict: 69.894
+*/

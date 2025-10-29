@@ -1,0 +1,45 @@
+/*
+Theme Name:   StoreFront_MedEd
+Theme URI:    http://www.medicaleducationleeds.com.com/
+Description:  A Child theme for Medical Education Leeds based on Storefront
+Author:       Matt Lord
+Author URI:   https://mattfolio.wordpress.com/
+Template:     storefront
+Version:      1.0.1
+*/
+
+@import url("style2.css");
+
+/*
+//Renders icon for 'Courses' function
+.storefront-handheld-footer-bar ul li.courses > a:before {
+	content: "\f133";
+}
+*/
+
+  /*Makes the header MedEd Rich
+#masthead, a {
+	background-color: #1f6879;
+}
+
+/*
+     FILE ARCHIVED ON 12:58:51 Sep 07, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:10:35 Oct 29, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.868
+  exclusion.robots: 0.034
+  exclusion.robots.policy: 0.021
+  esindex: 0.018
+  cdx.remote: 37.579
+  LoadShardBlock: 392.912 (3)
+  PetaboxLoader3.datanode: 347.945 (7)
+  PetaboxLoader3.resolve: 427.576 (3)
+  load_resource: 620.443 (2)
+  loaddict: 276.652 (2)
+*/

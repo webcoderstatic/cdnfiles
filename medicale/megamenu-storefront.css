@@ -1,0 +1,46 @@
+@media (min-width: 768px) {
+    .woocommerce-active .site-header #mega-menu-wrap-primary {
+        width: 73.9130434783%;
+        float: left;
+        margin-right: 4.347826087%;
+        clear: both;
+    }
+
+    /** support for Storefront WooCommerce Customizer when cart has been hidden */
+    .swc-header-no-cart.woocommerce-active .site-header #mega-menu-wrap-primary {
+    	width: 100%;
+    	margin-right: 0;
+    }
+
+    /** support for Storefront Powerpack when header layout changer is enabled */
+    .sp-header-active .site-header #mega-menu-wrap-primary {
+    	width: 100%;
+    	margin-right: 0;
+    }
+
+    .woocommerce-active .site-header #mega-menu-wrap-primary.mega-sticky {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+/*
+     FILE ARCHIVED ON 12:58:39 Sep 07, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:10:35 Oct 29, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.08
+  exclusion.robots: 0.049
+  exclusion.robots.policy: 0.031
+  esindex: 0.019
+  cdx.remote: 11.844
+  LoadShardBlock: 114.687 (3)
+  PetaboxLoader3.datanode: 124.865 (5)
+  PetaboxLoader3.resolve: 95.575 (3)
+  load_resource: 219.569
+  loaddict: 137.77
+*/
