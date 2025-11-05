@@ -1,0 +1,84 @@
+/*.dsm-readmore-btn*/
+.dsm-readmore-btn {
+    position: relative;
+    display: inline-block;
+}
+
+.dsm-readmore-text {
+    padding-right: 5px;
+}
+
+.dsm-readmore-icon {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: ETmodules;
+    font-size: inherit;
+    font-weight: 800;
+    font-style: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    text-transform: none;
+    content: attr(data-icon);
+}
+
+[data-readmore] {
+    position: relative;
+    overflow: hidden;
+}
+
+.dsm-readmore-shadow[data-readmore]:after,
+.dsm-readmore-shadow [data-readmore]:after {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: scale(1);
+    content: "";
+    display: inline-block;
+    position: absolute;
+    pointer-events: none;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #fff), to(rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(bottom, #fff 10%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(bottom, #fff 10%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(to top, #fff 10%, rgba(0, 0, 0, 0) 100%);
+}
+
+.dsm-readmore-shadow-remove[data-readmore]:after {
+    background: none;
+}
+
+.dsm-readmore-btn-wrapper {
+    margin-top: 10px;
+}
+
+.dsm-readmore-btn {
+    font-family: inherit;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+/*
+     FILE ARCHIVED ON 11:37:31 Dec 18, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:06:34 Oct 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 5.306 (2)
+  exclusion.robots: 0.049 (2)
+  exclusion.robots.policy: 0.021 (2)
+  esindex: 0.027 (2)
+  cdx.remote: 26.789 (2)
+  LoadShardBlock: 360.599 (6)
+  PetaboxLoader3.datanode: 292.162 (8)
+  PetaboxLoader3.resolve: 514.46 (4)
+  load_resource: 466.995 (2)
+*/
